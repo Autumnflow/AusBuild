@@ -245,8 +245,8 @@ namespace Discord
       discord_presence.details = "Not in-game";
     else if (SConfig::GetInstance().GetGameID() == "RSBE01")
     {
-      discord_presence.details = "Super Smash Bros. Brawl";
-      discord_presence.largeImageText = "Super Smash Bros. Brawl";
+      discord_presence.details = "Project+ Ausbuild";
+      discord_presence.largeImageText = "Project+ Ausbuild";
     }
     else
       discord_presence.details = title.c_str();
